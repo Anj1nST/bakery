@@ -1,0 +1,45 @@
+@import "../../theme.scss";
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  height: 160px;
+  width: 100%;
+  max-height: 5vh;
+
+  background-color: $color-main;
+  color: $color-font-default;
+
+  @media screen and (min-width: $breakpoint-sm) {
+    padding: 0px $sm-layout-padding;
+  }
+
+  @media screen and (min-width: $breakpoint-md) {
+    padding: 0px $md-layout-padding;
+  }
+
+  @media screen and (min-width: $breakpoint-lg) {
+    padding: 0px $lg-layout-padding;
+  }
+}
+
+.cupcakeLogo-container {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  margin-right: 40px;
+
+  img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+}
+
+.navbar-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
