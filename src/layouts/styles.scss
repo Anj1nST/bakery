@@ -1,0 +1,19 @@
+@import "../theme.scss";
+
+.layout {
+  @media screen and (min-width: $breakpoint-xsm) {
+    padding: 0 $xsm-layout-padding;
+  }
+
+  @media screen and (min-width: $breakpoint-sm) {
+    padding: 0 $sm-layout-padding;
+  }
+
+  @media screen and (min-width: $breakpoint-md) {
+    padding: 0 $md-layout-padding;
+  }
+
+  @media screen and (min-width: $breakpoint-lg) {
+    padding: 0 $lg-layout-padding;
+  }
+}
