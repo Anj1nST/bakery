@@ -7,6 +7,10 @@
   min-height: 480px;
   border: 2px solid $color-main;
   border-radius: 24px;
+
+  @media screen and (min-width: $breakpoint-md) {
+    min-height: 280px;
+  }
 }
 
 .image-container {

@@ -9,11 +9,7 @@
   }
 
   @media screen and (min-width: $breakpoint-md) {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 80px;
-  }
-
-  @media screen and (min-width: $breakpoint-lg) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 80px;
   }
 }
