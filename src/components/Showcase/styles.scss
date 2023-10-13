@@ -1,0 +1,15 @@
+@import "../../theme.scss";
+
+.showcase-container {
+  display: grid;
+
+  @media screen and (min-width: $breakpoint-xsm) {
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+  }
+
+  @media screen and (min-width: $breakpoint-md) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 80px;
+  }
+}

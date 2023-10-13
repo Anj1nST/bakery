@@ -1,4 +1,8 @@
-@import './theme.scss';
+@import "./theme.scss";
+@font-face {
+  font-family: VarelaRound;
+  src: url("./fonts/VarelaRound-Regular.ttf");
+}
 
 html,
 body,
@@ -10,9 +14,10 @@ body,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: VarelaRound;
 }
 
 a {
-    color: unset;
-    text-decoration: none;
+  color: unset;
+  text-decoration: none;
 }

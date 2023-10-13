@@ -10,12 +10,18 @@
   background-color: $color-main;
   color: $color-font-default;
 
+  @media screen and (min-width: $breakpoint-xsm) {
+    padding: 0px $xsm-layout-padding;
+    margin-bottom: 16px;
+  }
+
   @media screen and (min-width: $breakpoint-sm) {
     padding: 0px $sm-layout-padding;
   }
 
   @media screen and (min-width: $breakpoint-md) {
     padding: 0px $md-layout-padding;
+    margin-bottom: 80px;
   }
 
   @media screen and (min-width: $breakpoint-lg) {
